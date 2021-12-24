@@ -1,1 +1,1 @@
-![Screenshot](src/assets/icons/aboutBackground.jpg)
+![Screenshot](src/assets/icons/contact-page-web.png)![Screenshot](src/assets/icons/contact-page-mobile.png)
