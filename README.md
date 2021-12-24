@@ -1,0 +1,1 @@
+![Screenshot](src/assets/icons/aboutBackground.jpg)

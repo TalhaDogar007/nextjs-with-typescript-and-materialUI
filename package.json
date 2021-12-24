@@ -1,0 +1,67 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "^11.6.0",
+    "@emotion/server": "latest",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.1.0",
+    "@mui/material": "^5.1.0",
+    "@mui/styles": "^5.1.0",
+    "clsx": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
+    "format": "prettier --write src/**/*.ts{,x} --write pages/**/*.ts{,x}",
+    "lint": "eslint . --ext .ts --ext .tsx"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "eslint-plugin-unused-imports": "^1.0.1",
+    "husky": "^4.3.0",
+    "prettier": "^2.2.0",
+    "typescript": "latest"
+  }
+}
